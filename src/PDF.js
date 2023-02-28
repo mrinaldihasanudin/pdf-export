@@ -67,26 +67,22 @@ const PDF = () => (
       <View>
         <View style={styles.borderFull}>
           <Text
-            style={{
-              textAlign: "center",
-              backgroundColor: "#CECECE",
-              fontSize: 10,
-              height: "100%",
-            }}
+            style={[
+              styles.text,
+              {
+                textAlign: "center",
+                backgroundColor: "#CECECE",
+                fontSize: 10,
+                height: "100%",
+              },
+            ]}
           >
             LAPORAN HASIL PENILAIAN AGUNAN
           </Text>
         </View>
         <View style={styles.borderFullWithFlex}>
-          <View style={styles.trLeft}>
+          <View style={[styles.trLeft, { width: "33.42%" }]}>
             <Text>No. Laporan</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxxxx</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>ID No</Text>
             <Text>:</Text>
           </View>
           <View style={styles.tr}>
@@ -94,25 +90,9 @@ const PDF = () => (
           </View>
         </View>
         <View style={styles.borderFull}>
-          <Text>I. PELAKSANAAN PEKERJAAN</Text>
+          <Text style={styles.text}>I. PELAKSANAAN PEKERJAAN</Text>
         </View>
         <View style={styles.borderFullWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>Unit Penilaian</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxxxx</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Unit Penilai</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>MORTAGE</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
             <Text>Penilai</Text>
             <Text>:</Text>
@@ -134,133 +114,32 @@ const PDF = () => (
           </Text>
         </View>
         <View style={styles.borderFullWithFlex}>
-          <View style={styles.trLeft}>
+          <View style={[styles.trLeft, { width: "33.42%" }]}>
             <Text>Debitur</Text>
           </View>
           <View style={styles.tr}>
             <Text>xxxxxxx</Text>
           </View>
-          <View style={styles.trLeft}>
-            <Text></Text>
-            <Text></Text>
-          </View>
-          <View style={styles.tr}>
-            <Text></Text>
-          </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
+          <View style={[styles.trLeft, { width: "33.42%" }]}>
             <Text>Jenis Objek</Text>
             <Text>:</Text>
           </View>
           <View style={styles.tr}>
             <Text>Rumah Tinggal</Text>
           </View>
-          <View style={styles.trLeft}>
-            <Text></Text>
-            <Text></Text>
-          </View>
-          <View style={styles.tr}>
-            <Text></Text>
-          </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
+          <View style={[styles.trLeft, { width: "33.42%" }]}>
             <Text>Alamat Object Sesuai Fisik</Text>
             <Text>:</Text>
           </View>
           <View style={styles.tr}>
             <Text>xxxxxxxxx</Text>
           </View>
-          <View style={styles.trLeft}>
-            <Text></Text>
-            <Text></Text>
-          </View>
-          <View style={styles.tr}>
-            <Text></Text>
-          </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>Perumahan</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxxx</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Cluster</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxxxxxx</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>Kelurahan</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>Pondok Jaya</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Provinsi</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>BANTEN</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>Kecamatan</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>Pondok Aron</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Kode Pos</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>15220</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>Kota / Kabupaten</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>Kota Tanggerang Selatan</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Titik Koordinat Objek</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxx</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>PT. Bank Danamas,Tbk</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxx</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text>Nama RM / ARM</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxx</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Tanggal Order</Text>
             <Text>:</Text>
@@ -319,10 +198,10 @@ const PDF = () => (
       {/* START : TABEL KEDUA */}
       <View>
         <View style={styles.borderFull}>
-          <Text>II. RINGKASAN HASIL PENILAIAN</Text>
+          <Text style={styles.text}>II. RINGKASAN HASIL PENILAIAN</Text>
         </View>
         <View style={styles.borderFull}>
-          <Text>Nilai Pasar Setelah Penyesuaian Peraturan</Text>
+          <Text style={styles.text}>Nilai Pasar Sesuai IMB</Text>
         </View>
         <View
           style={{
@@ -350,7 +229,7 @@ const PDF = () => (
               justifyContent: "center",
             }}
           >
-            <Text style={{ textAlign: "center" }}>Object</Text>
+            <Text style={[styles.text, { textAlign: "center" }]}>Object</Text>
           </View>
 
           <View
@@ -369,7 +248,7 @@ const PDF = () => (
               justifyContent: "center",
             }}
           >
-            <Text>Luas (m{"\u00B2"})</Text>
+            <Text style={styles.text}>Luas (m{"\u00B2"})</Text>
           </View>
 
           <View style={styles.tr}>
@@ -386,7 +265,7 @@ const PDF = () => (
                 textAlign: "center",
               }}
             >
-              <Text>Nilai Pasar</Text>
+              <Text style={styles.text}>Nilai Pasar</Text>
               <View style={{ flexDirection: "row" }}>
                 <View
                   style={{
@@ -436,7 +315,7 @@ const PDF = () => (
                 textAlign: "center",
               }}
             >
-              <Text>Indikasi Nilai Likuidasi</Text>
+              <Text style={styles.text}>Indikasi Nilai Likuidasi</Text>
               <View style={{ flexDirection: "row" }}>
                 <View
                   style={{
@@ -602,331 +481,7 @@ const PDF = () => (
             <Text>1.344.000.000</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Rumah 2</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Rumah 3</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Rumah 4</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Rumah 5</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Sarana Pelengkap</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text></Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text></Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>44.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text></Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text></Text>
-          </View>
-        </View>
+
         <View
           style={[
             styles.borderFullWithFlex,
@@ -940,11 +495,10 @@ const PDF = () => (
               fontSize: 8,
               borderColor: "#000000",
               borderRightWidth: 1,
+              textAlign: "center",
             }}
           >
-            <Text style={{ textAlign: "center" }}>
-              TOTAL SETELAH PENYESUAIAN PERATURAN
-            </Text>
+            <Text style={styles.text}>TOTAL SETELAH PENYESUAIAN PERATURAN</Text>
           </View>
           <View
             style={{
@@ -988,7 +542,7 @@ const PDF = () => (
       {/* START : TABEL KETIGA */}
       <View>
         <View style={styles.borderFull}>
-          <Text>Nilai Pasar Sesuai IMB</Text>
+          <Text style={styles.text}>Sesuai Fisik Peraturan</Text>
         </View>
         <View
           style={{
@@ -1014,9 +568,10 @@ const PDF = () => (
               borderRightWidth: 1,
               alignItems: "center",
               justifyContent: "center",
+              textAlign: "center",
             }}
           >
-            <Text style={{ textAlign: "center" }}>Object</Text>
+            <Text style={styles.text}>Object</Text>
           </View>
 
           <View
@@ -1035,7 +590,7 @@ const PDF = () => (
               justifyContent: "center",
             }}
           >
-            <Text>Luas (m{"\u00B2"})</Text>
+            <Text style={styles.text}>Luas (m{"\u00B2"})</Text>
           </View>
 
           <View style={styles.tr}>
@@ -1052,7 +607,7 @@ const PDF = () => (
                 textAlign: "center",
               }}
             >
-              <Text>Nilai Pasar</Text>
+              <Text style={styles.text}>Nilai Pasar</Text>
               <View style={{ flexDirection: "row" }}>
                 <View
                   style={{
@@ -1102,349 +657,7 @@ const PDF = () => (
                 textAlign: "center",
               }}
             >
-              <Text>Indikasi Nilai Likuidasi</Text>
-              <View style={{ flexDirection: "row" }}>
-                <View
-                  style={{
-                    borderColor: "#000000",
-                    borderTopWidth: 1,
-                    borderBottomWidth: 1,
-                    // borderLeftWidth: 1,
-                    borderRightWidth: 1,
-                    height: 15,
-                    width: "100%",
-                    fontSize: 8,
-                    textAlign: "center",
-                  }}
-                >
-                  <Text>Nilai/m{"\u00B2"} (Rp.)</Text>
-                </View>
-                <View
-                  style={{
-                    borderColor: "#000000",
-                    borderTopWidth: 1,
-                    borderBottomWidth: 1,
-                    // borderLeftWidth: 1,
-                    // borderRightWidth: 1,
-                    height: 15,
-                    width: "100%",
-                    fontSize: 8,
-                    textAlign: "center",
-                  }}
-                >
-                  <Text>Total (Rp.)</Text>
-                </View>
-              </View>
-            </View>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Tanah</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>Rumah 1</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>200,000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>9.600.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>1.920.000.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>6.720.000</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "right",
-            }}
-          >
-            <Text>1.344.000.000</Text>
-          </View>
-        </View>
-
-        <View
-          style={[
-            styles.borderFullWithFlex,
-            { borderBottom: 1, marginBottom: 10 },
-          ]}
-        >
-          <View
-            style={{
-              width: "50%",
-              height: "100%",
-              fontSize: 8,
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text style={{ textAlign: "center" }}>
-              TOTAL SETELAH PENYESUAIAN PERATURAN
-            </Text>
-          </View>
-          <View
-            style={{
-              width: "16.67%",
-              height: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text>3.433.200.000</Text>
-          </View>
-          <View
-            style={{
-              width: "16.67%",
-              height: "100%",
-              fontSize: 8,
-              textAlign: "right",
-              borderColor: "#000000",
-              borderRightWidth: 1,
-            }}
-          >
-            <Text></Text>
-          </View>
-          <View
-            style={{
-              width: "16.67%",
-              height: "100%",
-              textAlign: "right",
-              fontSize: 8,
-              borderColor: "#000000",
-            }}
-          >
-            <Text>3.433.200.000</Text>
-          </View>
-        </View>
-      </View>
-      {/* END : TABEL KETIGA */}
-
-      {/* START : TABEL KEEMPAT */}
-      <View>
-        <View style={styles.borderFull}>
-          <Text>Nilai Pasar Sesuai Fisik Real</Text>
-        </View>
-        <View
-          style={{
-            flexDirection: "row",
-            borderColor: "#000000",
-            borderLeftWidth: 1,
-            borderRightWidth: 1,
-            borderTopWidth: 1,
-            width: "100%",
-          }}
-        >
-          <View
-            style={{
-              flexDirection: "row",
-              width: "50%",
-              height: "100%",
-              fontSize: 8,
-              padding: "0px 5px 0px 5px",
-              borderColor: "#000000",
-              // borderTopWidth: 1,
-              borderBottomWidth: 1,
-              // borderLeftWidth: 1,
-              borderRightWidth: 1,
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Text style={{ textAlign: "center" }}>Object</Text>
-          </View>
-
-          <View
-            style={{
-              flexDirection: "row",
-              width: "50%",
-              height: "100%",
-              fontSize: 8,
-              padding: "0px 5px 0px 5px",
-              borderColor: "#000000",
-              // borderTopWidth: 1,
-              borderBottomWidth: 1,
-              // borderLeftWidth: 1,
-              // borderRightWidth: 1,
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Text>Luas (m{"\u00B2"})</Text>
-          </View>
-
-          <View style={styles.tr}>
-            <View
-              style={{
-                // flexDirection: "row",
-                borderColor: "#000000",
-                // borderTopWidth: 1,
-                borderLeftWidth: 1,
-                borderRightWidth: 1,
-                height: 25,
-                width: 200,
-                fontSize: 8,
-                textAlign: "center",
-              }}
-            >
-              <Text>Nilai Pasar</Text>
-              <View style={{ flexDirection: "row" }}>
-                <View
-                  style={{
-                    borderColor: "#000000",
-                    borderTopWidth: 1,
-                    borderBottomWidth: 1,
-                    // borderLeftWidth: 1,
-                    borderRightWidth: 1,
-                    height: 15,
-                    width: "100%",
-                    fontSize: 8,
-                    textAlign: "center",
-                  }}
-                >
-                  <Text style={styles.fonts}>Nilai/m{"\u00B2"} (Rp.)</Text>
-                </View>
-                <View
-                  style={{
-                    borderColor: "#000000",
-                    borderTopWidth: 1,
-                    borderBottomWidth: 1,
-                    // borderLeftWidth: 1,
-                    // borderRightWidth: 1,
-                    height: 15,
-                    width: "100%",
-                    fontSize: 8,
-                    textAlign: "center",
-                  }}
-                >
-                  <Text>Total (Rp.)</Text>
-                </View>
-              </View>
-            </View>
-          </View>
-
-          <View style={styles.tr}>
-            <View
-              style={{
-                // flexDirection: "row",
-                borderColor: "#000000",
-                // borderTopWidth: 1,
-                // borderLeftWidth: 1,
-                borderRightWidth: 1,
-                height: 25,
-                width: 200,
-                fontSize: 8,
-                textAlign: "center",
-              }}
-            >
-              <Text>Indikasi Nilai Likuidasi</Text>
+              <Text style={styles.text}>Indikasi Nilai Likuidasi</Text>
               <View style={{ flexDirection: "row" }}>
                 <View
                   style={{
@@ -1948,9 +1161,10 @@ const PDF = () => (
               fontSize: 8,
               borderColor: "#000000",
               borderRightWidth: 1,
+              textAlign: "center",
             }}
           >
-            <Text style={{ textAlign: "center" }}>TOTAL SESUAI FISIK REAL</Text>
+            <Text style={styles.text}>TOTAL SESUAI FISIK REAL</Text>
           </View>
           <View
             style={{
@@ -1989,38 +1203,11 @@ const PDF = () => (
           </View>
         </View>
       </View>
-      {/* END : TABEL KEEMPAT */}
+      {/* END : TABEL KETIGA */}
 
-      {/* START : TABEL KELIMA */}
-      <View>
-        <View style={styles.borderFullWithFlex}>
-          <View style={styles.trLeft}>
-            <Text>
-              INDIKASI NILAI BANGUNAN SESUAI FISIK UNTUK KEPERLUAN ASURANSI
-              (MINIMAL) SEBESAR :
-            </Text>
-            <Text>Rp 1.939.700.000</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "50%" }]}>
-            <Text>Nilai Juala Object Pajak (NJOP) Tahun</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>2019</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "50%" }]}>
-            <Text>Letak Object</Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>xxxxxxxxxx</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRight}>
+      {/* START : TABEL KEEMPAT */}
+      <View break>
+        <View style={[styles.borderFull, { height: 20 }]}>
           <Text style={{ paddingRight: 8 }}>
             Sesuai dengan inspeksi yang telah kami lakukan, mencakup analisa
             situasi (site data), lingkungan dan pengembangan area serta
@@ -2028,24 +1215,32 @@ const PDF = () => (
           </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={styles.text}>Nilai Pasar :</Text>
+          <Text style={[styles.text, { textDecoration: "underline" }]}>
+            Nilai Pasar :
+          </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={{ textAlign: "center" }}>Rp 3.433.200.000</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>
+            Rp 3.433.200.000
+          </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={{ textAlign: "center" }}>
+          <Text style={[styles.text, { textAlign: "center" }]}>
             TIGA MILYAR EMPAT RATUS TIGA PULUH TIGA JUTA DUA RATUS RIBU RUPIAH
           </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={styles.text}>INDIKASI NILAI LIKUIDASI</Text>
+          <Text style={[styles.text, { textDecoration: "underline" }]}>
+            INDIKASI NILAI LIKUIDASI
+          </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={{ textAlign: "center" }}>Rp 2.7432.590.000</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>
+            Rp 2.7432.590.000
+          </Text>
         </View>
         <View style={styles.borderLeftRight}>
-          <Text style={{ textAlign: "center" }}>
+          <Text style={[styles.text, { textAlign: "center" }]}>
             DUA MILYAR TUJUH RATUS DUA JUTA LIMA RATUS SEMBILAN PULUH RIBU
             RUPIAH
           </Text>
@@ -2090,6 +1285,11 @@ const PDF = () => (
           </View>
         </View>
       </View>
+      <View break></View>
+      {/* END : TABEL KEEMPAT */}
+
+      {/* START : TABEL KELIMA */}
+
       {/* END : TABEL KELIMA */}
 
       {/* START : TABEL KEENAM */}
@@ -2098,7 +1298,7 @@ const PDF = () => (
           <Text style={styles.text}>III. LAPORAN HASIL PEMERIKSAAN</Text>
         </View>
         <View style={styles.borderFull}>
-          <Text style={{ textAlign: "center" }}>OBJEK</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>OBJEK</Text>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View style={[styles.trLeft, { width: "33.5%" }]}>
@@ -2184,10 +1384,10 @@ const PDF = () => (
       {/* START : TABEL KETUJUH */}
       <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
         <View style={styles.borderFull}>
-          <Text style={{ textAlign: "center" }}>DATA LEGAL</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>DATA LEGAL</Text>
         </View>
         <View style={styles.borderFull}>
-          <Text>LEGALITAS KEPEMILIKAN</Text>
+          <Text style={styles.text}>LEGALITAS KEPEMILIKAN</Text>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View style={[styles.trLeft, { width: "33.5%" }]}>
@@ -2217,7 +1417,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>No.</Text>
+            <Text style={styles.text}>No.</Text>
           </View>
           <View
             style={{
@@ -2228,7 +1428,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Jenis Dokumen</Text>
+            <Text style={styles.text}>Jenis Dokumen</Text>
           </View>
           <View
             style={{
@@ -2239,7 +1439,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>No.Dokumen</Text>
+            <Text style={styles.text}>No.Dokumen</Text>
           </View>
           <View
             style={{
@@ -2250,7 +1450,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Atas Nama</Text>
+            <Text style={styles.text}>Atas Nama</Text>
           </View>
           <View
             style={{
@@ -2261,7 +1461,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Tgl Terbit</Text>
+            <Text style={styles.text}>Tgl Terbit</Text>
           </View>
           <View
             style={{
@@ -2272,7 +1472,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Tgl akhir Hak</Text>
+            <Text style={styles.text}>Tgl akhir Hak</Text>
           </View>
           <View
             style={{
@@ -2283,7 +1483,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>No./Tgl GS/SU</Text>
+            <Text style={styles.text}>No./Tgl GS/SU</Text>
           </View>
           <View
             style={{
@@ -2294,7 +1494,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Luas</Text>
+            <Text style={styles.text}>Luas</Text>
           </View>
           <View
             style={{
@@ -2303,7 +1503,7 @@ const PDF = () => (
               textAlign: "center",
             }}
           >
-            <Text>Next Table</Text>
+            <Text style={styles.text}>Next Table</Text>
           </View>
         </View>
         <View style={styles.borderFullWithFlex}>
@@ -2811,7 +2011,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>Pengurangan Tata Kota</Text>
+            <Text style={styles.text}>Pengurangan Tata Kota</Text>
           </View>
           <View
             style={{
@@ -2833,7 +2033,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>200,00</Text>
+            <Text style={styles.text}>200,00</Text>
           </View>
         </View>
         <View style={styles.borderFullWithFlex}>
@@ -2846,7 +2046,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>TOTAL</Text>
+            <Text style={styles.text}>TOTAL</Text>
           </View>
           <View
             style={{
@@ -2873,7 +2073,7 @@ const PDF = () => (
         </View>
 
         <View style={styles.borderFull}>
-          <Text>LEGALITAS BANGUNAN</Text>
+          <Text style={styles.text}>LEGALITAS BANGUNAN</Text>
         </View>
 
         <View style={styles.borderFullWithFlex}>
@@ -2885,7 +2085,7 @@ const PDF = () => (
             <Text>xxxxxxxxx</Text>
           </View>
           <View style={[styles.trLeft, { width: "100" }]}>
-            <Text>TOTAL LUAS BANGUN</Text>
+            <Text style={styles.text}>TOTAL LUAS BANGUNAN</Text>
           </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
@@ -2982,7 +2182,7 @@ const PDF = () => (
             <Text>xxxxxxxxx</Text>
           </View>
           <View style={[styles.trLeft, { width: "100" }]}>
-            <Text>TOTAL LUAS BANGUN</Text>
+            <Text style={styles.text}>TOTAL LUAS BANGUNAN</Text>
           </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
@@ -3076,7 +2276,7 @@ const PDF = () => (
       {/* START : TABEL KEDELAPAN */}
       <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
         <View style={styles.borderFull}>
-          <Text style={{ textAlign: "center" }}>KONDISI</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>KONDISI</Text>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View style={[styles.trLeft, { width: "23.5%" }]}>
@@ -3087,7 +2287,7 @@ const PDF = () => (
             <Text>Tanah Malang</Text>
           </View>
           <View style={[styles.trLeft, { width: "100" }]}>
-            <Text>BATAS BIDANG</Text>
+            <Text style={styles.text}>BATAS BIDANG</Text>
           </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
@@ -3188,7 +2388,9 @@ const PDF = () => (
       {/* START : TABEL KESEMBILAN */}
       <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
         <View style={styles.borderFull}>
-          <Text style={{ textAlign: "center" }}>INFRASTRUKTUR & FASILITAS</Text>
+          <Text style={[styles.text, { textAlign: "center" }]}>
+            INFRASTRUKTUR & FASILITAS
+          </Text>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View style={[styles.trLeft, { width: "40%" }]}>
@@ -4272,7 +3474,7 @@ const PDF = () => (
               borderRightWidth: 1,
             }}
           >
-            <Text>TOTAL LUAS BANGUNAN (m{"\u00B2"})</Text>
+            <Text style={styles.text}>TOTAL LUAS BANGUNAN (m{"\u00B2"})</Text>
           </View>
           <View
             style={{
@@ -4282,11 +3484,11 @@ const PDF = () => (
               textAlign: "center",
             }}
           >
-            <Text>100</Text>
+            <Text style={styles.text}>100</Text>
           </View>
         </View>
         <View style={[styles.borderFull, { borderBottomWidth: 1 }]}>
-          <Text>SPESIFIKASI BANGUNAN</Text>
+          <Text style={styles.text}>SPESIFIKASI BANGUNAN</Text>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
           <View style={[styles.trLeft, { width: "22.20%" }]}>
@@ -4389,7 +3591,7 @@ const PDF = () => (
         </View>
         <View style={[styles.borderFullWithFlex, { borderBottomWidth: 1 }]}>
           <View style={[styles.trLeft, { width: "50%" }]}>
-            <Text>PROGRES PENYELSAIAN BANGUNAN</Text>
+            <Text style={styles.text}>PROGRES PENYELSAIAN BANGUNAN</Text>
             <Text>:</Text>
           </View>
           <View style={styles.tr}>
@@ -6254,18 +5456,6 @@ Font.register({
 });
 
 const styles = StyleSheet.create({
-  // fonts: { fontFamily: "Roboto" },
-  // borderFullWithFlex: {
-  //   flexDirection: "row",
-  //   borderColor: "#000000",
-  //   borderTopWidth: 1,
-  //   borderLeftWidth: 1,
-  //   borderRightWidth: 1,
-  //   // borderBottomWidth: 1,
-  //   alignItems: "center",
-  //   height: 18,
-  //   fontStyle: "bold",
-  // },
   borderFull: {
     borderColor: "#000000",
     borderTopWidth: 1,
@@ -6353,7 +5543,7 @@ const styles = StyleSheet.create({
     // textAlign: "justify",
     // fontFamily: "Times-Roman",
     fontFamily: "Times",
-    textDecoration: "underline",
+    // textDecoration: "underline",
     // fontWeight: "bold",
   },
   image: {
