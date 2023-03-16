@@ -1496,15 +1496,6 @@ const PDF = () => (
           >
             <Text style={styles.text}>Luas</Text>
           </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text style={styles.text}>Next Table</Text>
-          </View>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View
@@ -1594,15 +1585,6 @@ const PDF = () => (
             }}
           >
             <Text>xxxxxxxx</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text>Next Table</Text>
           </View>
         </View>
         <View style={styles.borderFullWithFlex}>
@@ -1694,15 +1676,6 @@ const PDF = () => (
           >
             <Text>xxxxxxxx</Text>
           </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text>Next Table</Text>
-          </View>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View
@@ -1792,15 +1765,6 @@ const PDF = () => (
             }}
           >
             <Text>xxxxxxxx</Text>
-          </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text>Next Table</Text>
           </View>
         </View>
         <View style={styles.borderFullWithFlex}>
@@ -1892,15 +1856,6 @@ const PDF = () => (
           >
             <Text>xxxxxxxx</Text>
           </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text>Next Table</Text>
-          </View>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View
@@ -1991,20 +1946,11 @@ const PDF = () => (
           >
             <Text>xxxxxxxx</Text>
           </View>
-          <View
-            style={{
-              width: "100%",
-              fontSize: 8,
-              textAlign: "center",
-            }}
-          >
-            <Text>Next Table</Text>
-          </View>
         </View>
         <View style={styles.borderFullWithFlex}>
           <View
             style={{
-              width: "63.6%",
+              width: "74%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2015,7 +1961,7 @@ const PDF = () => (
           </View>
           <View
             style={{
-              width: "12.13%",
+              width: "14.13%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2026,7 +1972,7 @@ const PDF = () => (
           </View>
           <View
             style={{
-              width: "12.13%",
+              width: "14.13%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2039,7 +1985,7 @@ const PDF = () => (
         <View style={styles.borderFullWithFlex}>
           <View
             style={{
-              width: "63.6%",
+              width: "74%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2050,7 +1996,7 @@ const PDF = () => (
           </View>
           <View
             style={{
-              width: "12.13%",
+              width: "14.13%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2061,7 +2007,7 @@ const PDF = () => (
           </View>
           <View
             style={{
-              width: "12.13%",
+              width: "14.13%",
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
@@ -2078,11 +2024,11 @@ const PDF = () => (
 
         <View style={styles.borderFullWithFlex}>
           <View style={[styles.trLeft, { width: "23.5%" }]}>
-            <Text>Alamat Sesuai IMB</Text>
-            <Text>:</Text>
+            <Text></Text>
+            <Text></Text>
           </View>
           <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
-            <Text>xxxxxxxxx</Text>
+            <Text></Text>
           </View>
           <View style={[styles.trLeft, { width: "100" }]}>
             <Text style={styles.text}>TOTAL LUAS BANGUNAN</Text>
@@ -2096,6 +2042,7 @@ const PDF = () => (
           <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
             <Text>Rumah Tinggal</Text>
           </View>
+
           <View style={[styles.trLeft, { width: "12.75%" }]}>
             <Text>- Penyesuaian</Text>
             <Text>:</Text>
@@ -2141,117 +2088,6 @@ const PDF = () => (
           </View>
           <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
             <Text>xxxxxxx</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "12.75%" }]}>
-            <Text>- Fisik Real</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "12.75%" }]}>
-            <Text> 500,00 m{"\u00B2"}</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "8.75%" }]}>
-            <Text>- Lantai</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "8.75%" }]}>
-            <Text> x</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "14.25%" }]}>
-            <Text>Thn Bangun</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "14.25%" }]}>
-            <Text>2010</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "14.25%" }]}>
-            <Text>Thn Renovasi</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "14.25%", borderRightWidth: 1 }]}>
-            <Text>2015</Text>
-          </View>
-        </View>
-        <View style={styles.borderFullWithFlex}>
-          <View style={[styles.trLeft, { width: "23.5%" }]}>
-            <Text>Alamat Sesuai IMB</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
-            <Text>xxxxxxxxx</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "100" }]}>
-            <Text style={styles.text}>TOTAL LUAS BANGUNAN</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "23.5%" }]}>
-            <Text>Type Bangunan</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
-            <Text>Rumah Tinggal</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "12.75%" }]}>
-            <Text>- Penyesuaian</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "12.75%" }]}>
-            <Text> 500,00 m{"\u00B2"}</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "8.75%" }]}>
-            <Text>- Lantai</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "8.75%" }]}>
-            <Text> x</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "23.5%" }]}>
-            <Text>No. IMB</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
-            <Text>xxxxxxx</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "12.75%" }]}>
-            <Text>- IMB</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "12.75%" }]}>
-            <Text> 100,00 m{"\u00B2"}</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "8.75%" }]}>
-            <Text>- Lantai</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "8.75%" }]}>
-            <Text> x</Text>
-          </View>
-        </View>
-        <View style={styles.borderLeftRightWithFlex}>
-          <View style={[styles.trLeft, { width: "23.5%" }]}>
-            <Text>Tgl. Penerbitan IMB</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "33.5%", borderRightWidth: 1 }]}>
-            <Text>xxxxxxx</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "12.75%" }]}>
-            <Text>- Fisik Real</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "12.75%" }]}>
-            <Text> 500,00 m{"\u00B2"}</Text>
-          </View>
-          <View style={[styles.trLeft, { width: "8.75%" }]}>
-            <Text>- Lantai</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "8.75%" }]}>
-            <Text> x</Text>
           </View>
         </View>
         <View style={styles.borderLeftRightWithFlex}>
@@ -2390,195 +2226,99 @@ const PDF = () => (
         <View style={[styles.borderFull, { borderBottomWidth: 1 }]}>
           <Text style={[styles.text, { textAlign: "center" }]}>LINGKUNGAN</Text>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 30 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset yang tidak memiliki akses jalan umum
-            </Text>
+            <Text>Aset yang tidak memiliki akses jalan umum</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada di daerah rawan banjir
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
+            <Text>
               Aset berada dalam radius ≤ 100 m dari rumah ibadah atau sekolah
               umum(yang ramai dan rawan macet)
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada ≤ 30m dari kabel terluar SUTET / SUTT / SUTTAS
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
+            <Text>
               Aset berada dalam radius kurang dari 100 meter dari lampu merah
               atau tidak memiliki lahan parkir
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada dalam radius ≤ 100m dari pemakaman keluarga / umum
-              (TPU)
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset Berada Pada Lingkungan Kumuh
-            </Text>
+            <Text>Aset Berada Pada Lingkungan Kumuh</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada dekat sungai (Tepi sungai berturap beton ≤ 10m, Tepi
-              sungai tidak berturap beton ≤ 30m)
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset memiliki akses jalan ≤ 3 m dan / atau jalan buntu
+            <Text>
+              Aset memiliki akses jalan {`<=`} 3 m dan / atau jalan buntu
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada pada posisi tusuk sate
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset Berada Pada Lingkungan Kumuh
-            </Text>
+            <Text>Aset Berada Pada Lingkungan Kumuh</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berdekatan dengan SPBU radius ± 50 m
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset memiliki akses jalan ≤ 3 m dan / atau jalan buntu
-            </Text>
+            <Text>Aset memiliki akses jalan ≤ 3 m dan / atau jalan buntu</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset yang dipergunakan untuk : Rumah sakit, klinik pengobatan,
-              Rumah Ibadah, Kantor / markas Partai Politik, Organisasi Masa,
-              Organisasi Keagamaan, Sekolah Umum
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada dibawah permukaan jalan umum ≥ 50 cm
-            </Text>
+            <Text>Aset berada dibawah permukaan jalan umum {`>=`} 50 cm</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berupa rumah panggung / dinding kayu / bilik
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
+            <Text>
               Aset berada dekat dengan rel kereta api, rel LRT, rel MRT berjarak
-              ≤ 25m
+              {`<=`} 25m
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada dekat dengan Tempat Pembuangan Sampah Sementara (TPS)
-              berjarak ≤ 100m dan Tempat Pembuangan Akhir (TPA) berjarak ≤ 500m
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset tidak sesuai dengan rencana tata kota atau berada di zona
@@ -2587,90 +2327,206 @@ const PDF = () => (
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Akses jalan masih berupa tanah atau batu
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
+            <Text>
               Aset berada di daerah rawan longsor, pesisir pantai, konservasi
               dan pertambangan berjarak ≤ 100 m
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>Aset berada dekat dengan rawa / di hutan radius 100 m</Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>
+              Aset berupa tanah dan / atau bangunan yang berdiri dalam radius 30
+              meter dari jalur distribusi pipa gas bumi / gas alam
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>
+              Aset berdekatan dengan menara / tower BTS yang tertanam dengan
+              jarak {`<=`} 20m
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>Aset bermasalah secara hukum / dalam sengketa</Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>Aset berada di daerah rawan banjir</Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berada {`<=`} 30m dari kabel terluar SUTET / SUTT / SUTTAS
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berada dalam radius {`<=`} 100m dari pemakaman keluarga /
+              umum (TPU)
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berada dekat sungai (Tepi sungai berturap beton {`<=`} 10m,
+              Tepi sungai tidak berturap beton {`<=`} 30m)
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berada pada posisi tusuk sate
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berdekatan dengan SPBU radius ± 50 m
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset yang dipergunakan untuk : Rumah sakit, klinik pengobatan,
+              Rumah Ibadah, Kantor / markas Partai Politik, Organisasi Masa,
+              Organisasi Keagamaan, Sekolah Umum
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset yang dipergunakan untuk : Rumah sakit, klinik pengobatan,
+              Rumah Ibadah, Kantor / markas Partai Politik, Organisasi Masa,
+              Organisasi Keagamaan, Sekolah Umum
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berupa rumah panggung / dinding kayu / bilik
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text style={{ width: "95%" }}>
+              Aset berada dekat dengan Tempat Pembuangan Sampah Sementara (TPS)
+              berjarak {`>=`} 100m dan Tempat Pembuangan Akhir (TPA) berjarak{" "}
+              {`<=`} 500m
+            </Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
+          <View style={styles.trLeft}>
+            <Text>Akses jalan masih berupa tanah atau batu</Text>
+            <Text>:</Text>
+          </View>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
+            <Text>Tidak</Text>
+          </View>
+        </View>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Daerah Tidak Tenang / rawan gangguan
             </Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
+        <View style={styles.borderLeftRightWithFlex}>
           <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berada dekat dengan rawa / di hutan radius 100 m
-            </Text>
+            <Text>Daerah Merah / Lokalisasi</Text>
             <Text>:</Text>
           </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>Daerah Merah / Lokalisasi</Text>
-            <Text>:</Text>
-          </View>
-          <View style={[styles.tr, { width: "30%" }]}>
-            <Text>Tidak</Text>
-          </View>
-        </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berupa tanah dan / atau bangunan yang berdiri dalam radius 30
-              meter dari jalur distribusi pipa gas bumi / gas alam
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>Tidak</Text>
-          </View>
-        </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset berdekatan dengan menara / tower BTS yang tertanam dengan
-              jarak ≤ 20m
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
-            <Text>Tidak</Text>
-          </View>
-        </View>
-        <View style={[styles.borderLeftRightWithFlex, { height: 40 }]}>
-          <View style={styles.trLeft}>
-            <Text style={{ width: "95%" }}>
-              Aset bermasalah secara hukum / dalam sengketa{" "}
-            </Text>
-            <Text>:</Text>
-          </View>
-          <View style={styles.tr}>
+          <View style={[styles.tr, { width: "30%", marginLeft: 10 }]}>
             <Text>Tidak</Text>
           </View>
         </View>
