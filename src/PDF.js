@@ -2221,12 +2221,12 @@ const PDF = () => (
       </View>
       {/* END : TABEL KEDELAPAN */}
 
-      {/* START : TABEL KEEMPATBELAS */}
-      <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
+      {/* START : TABEL KESEMBILAN */}
+      <View style={{ borderBottomWidth: 1, marginBottom: 10 }} break>
         <View style={[styles.borderFull, { borderBottomWidth: 1 }]}>
           <Text style={[styles.text, { textAlign: "center" }]}>LINGKUNGAN</Text>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset yang tidak memiliki akses jalan umum</Text>
             <Text>:</Text>
@@ -2235,7 +2235,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berada dalam radius ≤ 100 m dari rumah ibadah atau sekolah
@@ -2247,7 +2247,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berada dalam radius kurang dari 100 meter dari lampu merah
@@ -2259,7 +2259,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset Berada Pada Lingkungan Kumuh</Text>
             <Text>:</Text>
@@ -2268,7 +2268,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset memiliki akses jalan {`<=`} 3 m dan / atau jalan buntu
@@ -2279,7 +2279,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset Berada Pada Lingkungan Kumuh</Text>
             <Text>:</Text>
@@ -2288,7 +2288,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset memiliki akses jalan ≤ 3 m dan / atau jalan buntu</Text>
             <Text>:</Text>
@@ -2297,7 +2297,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset berada dibawah permukaan jalan umum {`>=`} 50 cm</Text>
             <Text>:</Text>
@@ -2306,7 +2306,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berada dekat dengan rel kereta api, rel LRT, rel MRT berjarak
@@ -2318,7 +2318,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset tidak sesuai dengan rencana tata kota atau berada di zona
@@ -2331,7 +2331,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berada di daerah rawan longsor, pesisir pantai, konservasi
@@ -2343,7 +2343,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset berada dekat dengan rawa / di hutan radius 100 m</Text>
             <Text>:</Text>
@@ -2352,7 +2352,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berupa tanah dan / atau bangunan yang berdiri dalam radius 30
@@ -2364,7 +2364,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>
               Aset berdekatan dengan menara / tower BTS yang tertanam dengan
@@ -2376,7 +2376,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset bermasalah secara hukum / dalam sengketa</Text>
             <Text>:</Text>
@@ -2385,7 +2385,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Aset berada di daerah rawan banjir</Text>
             <Text>:</Text>
@@ -2394,7 +2394,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berada {`<=`} 30m dari kabel terluar SUTET / SUTT / SUTTAS
@@ -2405,7 +2405,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berada dalam radius {`<=`} 100m dari pemakaman keluarga /
@@ -2417,7 +2417,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berada dekat sungai (Tepi sungai berturap beton {`<=`} 10m,
@@ -2429,7 +2429,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berada pada posisi tusuk sate
@@ -2440,7 +2440,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berdekatan dengan SPBU radius ± 50 m
@@ -2451,7 +2451,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset yang dipergunakan untuk : Rumah sakit, klinik pengobatan,
@@ -2464,7 +2464,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset yang dipergunakan untuk : Rumah sakit, klinik pengobatan,
@@ -2477,7 +2477,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berupa rumah panggung / dinding kayu / bilik
@@ -2488,7 +2488,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Aset berada dekat dengan Tempat Pembuangan Sampah Sementara (TPS)
@@ -2501,7 +2501,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Akses jalan masih berupa tanah atau batu</Text>
             <Text>:</Text>
@@ -2510,7 +2510,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text style={{ width: "95%" }}>
               Daerah Tidak Tenang / rawan gangguan
@@ -2521,7 +2521,7 @@ const PDF = () => (
             <Text>Tidak</Text>
           </View>
         </View>
-        <View style={styles.borderLeftRightWithFlex}>
+        <View style={[styles.borderLeftRightWithFlex, { height: 20 }]}>
           <View style={styles.trLeft}>
             <Text>Daerah Merah / Lokalisasi</Text>
             <Text>:</Text>
@@ -2531,10 +2531,10 @@ const PDF = () => (
           </View>
         </View>
       </View>
-      {/* END : TABEL KEEMPATBELAS */}
+      {/* END : TABEL KESEMBILAN */}
 
-      {/* START : TABEL KESEMBILAN */}
-      <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
+      {/* START : TABEL KESEPULUH */}
+      <View style={{ borderBottomWidth: 1, marginBottom: 10 }} break>
         <View style={styles.borderFull}>
           <Text style={[styles.text, { textAlign: "center" }]}>
             INFRASTRUKTUR & FASILITAS
@@ -3737,6 +3737,9 @@ const PDF = () => (
             <Text>Baik / Good</Text>
           </View>
         </View>
+      </View>
+      {/* END : TABEL KESEPULUH */}
+      <View break>
         <View style={[styles.borderFullWithFlex, { borderBottomWidth: 1 }]}>
           <View style={[styles.trLeft, { width: "50%" }]}>
             <Text style={styles.text}>PROGRES PENYELSAIAN BANGUNAN</Text>
@@ -3788,10 +3791,7 @@ const PDF = () => (
           </View>
         </View>
       </View>
-
-      {/* END : TABEL KESEMBILAN */}
-
-      {/* START : TABEL KESEPULUH */}
+      {/* START : TABEL KESEBELAS */}
       <View style={{ marginBottom: 10, borderBottomWidth: 1 }}>
         <View style={[styles.borderFull, { borderBottomWidth: 1 }]}>
           <View style={{ textAlign: "center" }}>
@@ -3814,9 +3814,9 @@ const PDF = () => (
           </View>
         </View>
       </View>
-      {/* END : TABEL KESEPULUH */}
+      {/* END : TABEL KESEBELAS */}
 
-      {/* START : TABEL KESEBELAS */}
+      {/* START : TABEL KEDUABELAS */}
       <View style={{ borderBottomWidth: 1, marginBottom: 10 }}>
         <View style={styles.borderFull}>
           <Text>PEMBANDING DATA PASAR</Text>
@@ -3888,7 +3888,7 @@ const PDF = () => (
             <Text>DATA 3</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -3954,7 +3954,7 @@ const PDF = () => (
             <Text>Rumah Tinggal</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4020,7 +4020,7 @@ const PDF = () => (
             <Text>xxxxxx</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4070,6 +4070,7 @@ const PDF = () => (
               fontSize: 8,
               textAlign: "center",
               borderColor: "#000000",
+              borderRightWidth: 1,
             }}
           >
             <Text>xxxxxx</Text>
@@ -4085,7 +4086,7 @@ const PDF = () => (
             <Text>xxxxxx</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4151,7 +4152,7 @@ const PDF = () => (
             <Text>xxxxxx</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4217,7 +4218,7 @@ const PDF = () => (
             <Text>xxxxxx</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4283,7 +4284,7 @@ const PDF = () => (
             <Text>Broker / Perantara</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4349,7 +4350,7 @@ const PDF = () => (
             <Text>2.000.000.000</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4484,7 +4485,7 @@ const PDF = () => (
         <View style={styles.borderFull}>
           <Text>SPESIFIKASI DATA</Text>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4550,7 +4551,7 @@ const PDF = () => (
             <Text>SHM</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4616,7 +4617,7 @@ const PDF = () => (
             <Text>100</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4682,7 +4683,7 @@ const PDF = () => (
             <Text>Menyerupai Persegi Panjang</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4748,7 +4749,7 @@ const PDF = () => (
             <Text>1</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4814,7 +4815,7 @@ const PDF = () => (
             <Text>1</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4880,7 +4881,7 @@ const PDF = () => (
             <Text>Depan</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -4946,7 +4947,7 @@ const PDF = () => (
             <Text>Tanah Matang</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5016,7 +5017,7 @@ const PDF = () => (
             <Text>Pemukiman / Rumah Tinggal / Hunian</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5082,7 +5083,7 @@ const PDF = () => (
             <Text>Datar</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5148,7 +5149,7 @@ const PDF = () => (
             <Text>200</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5214,7 +5215,7 @@ const PDF = () => (
             <Text>1.710.000.000</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5281,7 +5282,7 @@ const PDF = () => (
             <Text>4.270.947</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5349,7 +5350,7 @@ const PDF = () => (
             <Text>3.203.210</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5417,7 +5418,7 @@ const PDF = () => (
             <Text>640.642.002</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "13%",
@@ -5483,7 +5484,7 @@ const PDF = () => (
             <Text>1.069.357.998</Text>
           </View>
         </View>
-        <View style={styles.borderFullWithFlex}>
+        <View style={[styles.borderFullWithFlex, { height: 20 }]}>
           <View
             style={{
               width: "27.33%",
@@ -5623,7 +5624,7 @@ const PDF = () => (
           </View>
         </View>
       </View>
-      {/* END : TABEL KESEBELAS */}
+      {/* END : TABEL KEDUABELAS */}
 
       <Text
         style={styles.pageNumber}
